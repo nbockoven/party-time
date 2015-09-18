@@ -27,5 +27,18 @@ party.config(function( $stateProvider, $urlRouterProvider ){
     }
   })
 
+  .state('search', {
+    url: "/search",
+    data: {
+      pagetitle: 'Search'
+    },
+    views: {
+      "": {
+        controller: "search",
+        templateUrl: "app/components/search/view.html"
+      }
+    }
+  })
+
   ;
 });

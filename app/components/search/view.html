@@ -1,0 +1,20 @@
+<div class="row">
+  <div class="col-sm-3 col-md-2">
+    <h2 class="m-0">Filters</h2>
+  </div><!-- .col-sm-3 -->
+  <div class="col-sm-9 col-md-10">
+    <div class="row">
+      <div class="col-sm-6 col-md-3" data-ng-repeat="candidate in candidates | orderBy:'last_name'">
+        <div class="thumbnail">
+          <img src="{{ candidate.image }}" alt="{{ candidate.first_name }} {{ candidate.last_name }}" style="padding-top:9px">
+          <div class="caption text-center">
+            <h3 class="m-0">{{ candidate.first_name }} {{ candidate.last_name }}</h3>
+            {{ candidate.party }}
+            <br>
+            <small class="text-muted">{{ candidate.experience }}</small>
+          </div><!-- .caption -->
+        </div><!-- .thumbnail -->
+      </div><!-- .col-sm-6 -->
+    </div><!-- .row -->
+  </div><!-- .col-sm-9 -->
+</div><!-- .row -->
