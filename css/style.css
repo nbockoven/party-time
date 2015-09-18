@@ -1,0 +1,16 @@
+body {
+  background-color: #EDEAE3;
+}
+
+.jumbotron {
+  border-bottom: 4px solid #E6E6E6;
+}
+
+
+input[type=radio]:checked:before {
+  background-color: #4caf50 !important;
+}
+
+input[type=radio]:checked:after {
+  border-color: #4caf50 !important;
+}
