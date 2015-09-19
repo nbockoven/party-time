@@ -1,4 +1,4 @@
-var party = angular.module('party', ['ui.router', 'ngSanitize']);
+var party = angular.module('party', ['ui.router', 'ngSanitize', 'angular.filter']);
 
 party.run(['$rootScope', '$state', '$stateParams', function( $rootScope, $state, $stateParams ){
 

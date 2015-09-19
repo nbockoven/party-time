@@ -23,3 +23,7 @@ input[type=radio]:checked:after {
 .text-blue {
   color: blue;
 }
+
+.vw-100 {
+  width: 100vw !important;
+}

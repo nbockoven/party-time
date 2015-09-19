@@ -20,9 +20,22 @@ party.config(function( $stateProvider, $urlRouterProvider ){
       pagetitle: 'Welcome'
     },
     views: {
-      "": {
+      "home": {
         controller: "home",
         templateUrl: "app/components/home/view.html"
+      }
+    }
+  })
+
+  .state('questionnaire', {
+    url: "/questionnaire",
+    data: {
+      pagetitle: 'Welcome'
+    },
+    views: {
+      "questionnaire": {
+        controller: "questionnaire",
+        templateUrl: "app/components/questionnaire/view.html"
       }
     }
   })
@@ -33,7 +46,7 @@ party.config(function( $stateProvider, $urlRouterProvider ){
       pagetitle: 'Search'
     },
     views: {
-      "": {
+      "search": {
         controller: "search",
         templateUrl: "app/components/search/view.html"
       }

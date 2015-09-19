@@ -1,28 +1,5 @@
 party.controller('search', ['$scope', function( $scope ){
-  $scope.parties = [
-    {
-      'title': 'Republican',
-      'symbol': 'elephant',
-      'color': 'red'
-    },
-    {
-      'title': 'Democratic',
-      'symbol': 'donkey',
-      'color': 'blue'
-    },
-  ];
-  $scope.issues = [
-    'Immigration',
-    'Same-Sex Marriage',
-    'Education',
-    'Gun Control',
-    'Taxes',
-    'Economy',
-    'Health Care',
-    'Climate Change',
-    'Foreign Policy',
-    'Environment'
-  ];
+
   $scope.candidates = [
     // REPUBLICAN
     {
@@ -194,9 +171,18 @@ party.controller('search', ['$scope', function( $scope ){
       'experience': 'Former Governor of Rhode Island',
       'image': 'https://s3.graphiq.com/sites/default/files/980/media/images/t2/Lincoln_Chafee_6387900.jpg',
       'gender': 'Male'
-    },
-
-
-
+    }
   ];
+
+  $scope.genders = { Female: true, Male: true };
+
+  $scope.parties = { Democratic: true, Republican: true };
+
+  $scope.filterByGender = function( candidate ) {
+    return $scope.genders[candidate.gender];
+  }
+
+  $scope.filterByParty = function( candidate ){
+    return $scope.parties[candidate.party]
+  }
 }]);

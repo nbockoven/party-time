@@ -1,7 +1,6 @@
-$(document).ready(function(){
-  $('#form-questionnaire input').change(function(){
-    setTimeout( slideCarousel, 500 );
-  });
+
+$(document).on('change', '#form-questionnaire input', function(){
+  setTimeout( slideCarousel, 500 );
 });
 
 function slideCarousel(){
