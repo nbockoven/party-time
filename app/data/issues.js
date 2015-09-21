@@ -174,6 +174,7 @@ Climate Change:
   (Ben Carson) The climate change debate is “irrelevant.” Temperature change is cyclical.
   (Bernie Sanders) Charge companies for carbon emissions
   (Marco Rubio) It is real. It is not caused by man.
+  (George Pataki) Climate change is real. Combat it through private initiatives.
 
 Education:
   (Boby Jindal) Get rid of Common Core. Roll back funding on state-support universities. Increase funding for community colleges.
@@ -189,6 +190,7 @@ Education:
   (Bernie Sanders) Two years free tuition at state colleges. Reform student loans.
   (Hillary Clinton) Against No Child Left Behind. Position unknown on Common Core.
   (Ted Cruz) End Common Core
+  (George Pataki) End Common Core. Do not impose national standards on states.
 
 Government Power:
   (Lincoln Chafee) Give government limited surveillance powers. Bulk data collection violates the Constitution.
@@ -209,15 +211,18 @@ Guns:
   (Carly Fiorina) Gun access is an important right. Do not ban assault weapons. Allow some on the No-Fly list to own guns.
   (Ben Carson) Few limits on ownership except for the mentally ill or those convicted of violent crime.
   (Bernie Sanders) A mixed approach. No federal handgun waiting period. Some protection for gun manufacturers. Ban assault weapons.
+  (George Pataki) States should ban some assault weapons, enact ballistics fingerprinting and place other limits on gun use.
 
 Marijuana:
   (Jeb Bush) Each state should decide on legalization. Florida should not allow either recreational or medical marijuana to be legalized and widely sold.
   (Lincoln Chafee) Decriminalize possession of small amounts. Watch how things progress in Colorado.
   (Ben Carson) There are some benefits to medical marijuana. Legalizing for recreational purpose raises concern.
   (Hillary Clinton) "Wait and see" on overall legalization.
+  (George Pataki) Let the states decide. Do not legalize nationally, for now.
 
 NSA:
   (Hillary Clinton) More transparency. Find the balance between security, privacy.
+  (George Pataki) Reauthorize the Patriot Act.
 
 Justice:
   (Rand Paul) Allow more felons to vote. Reform sentencing.
@@ -264,6 +269,7 @@ Affordable Healthcare Act:
   (Marco Rubio) Repeal it. Replace it with tax credits and fewer regulations.
   (Hillary Clinton) Keep it. Strengthen it. Tout it.
   (Ted Cruz) Repeal it.
+  (George Pataki) Repeal it. Pass an alternative.
 
 Prison Reform:
   (Jim Webb) Initiate sweeping reform of criminal justice and incarceration system.
@@ -286,6 +292,7 @@ Abortions:
   (Hillary Clinton) Abortion should be legal.
   (Rand Paul) Limit abortion, but do not overturn Roe v. Wade.
   (Ted Cruz) There should be strict limits on abortion.
+  (George Pataki) Block late-term abortions and government funding of abortions, but otherwise do not tightly restrict access.
 
 Capital Punishment:
   (Martin O'Malley) Abolish capital punishment.
@@ -307,7 +314,8 @@ Gay Marriage:
   (Marco Rubio) The Supreme Court decision on gay marriage is the law of the land. Marriage is between a man and a woman.
   (Hillary Clinton) Should be legal.
   (Rand Paul) The U.S. should consider taking marriage out of government's hands.
-  (Ted Cruz) Only the four states (Kentucky, Michigan, Ohio and Tennessee) specifically named in the Supreme Court decision on gay marriage must abide by the ruling. In general, states should be allowed to define "marriage."
+  (Ted Cruz) Only the four states (Kentucky, Michigan, Ohio and Tennessee) specifically named in the Supreme Court decision on gay marriage must abide by the ruling. In general, states should be allowed to define "marriage".
+  (George Pataki) Leave the definition of marriage to states.
 
 Taxes:
   (Boby Jindal) Eliminate state income taxes. Look to local governments to plug Louisiana’s budget hole.
@@ -329,6 +337,7 @@ Taxes:
   (Rand Paul) Institute a flat tax of 17 percent or lower.
   (Ted Cruz) Slash corporate tax rates to 15 percent. End some programs like the Export-Import bank and federal subsidies for renewable fuels.
   (Ted Cruz) Move toward a flat tax and abolish the IRS.
+  (George Pataki) Cut taxes. Rewrite the federal tax code
 
 Trade:
   (Lindsey Graham) Approve the Trans-Pacific Partnership.
@@ -365,6 +374,7 @@ Iran and Israel:
   (Hillary Clinton) Support framework for nuclear deal. Continue diplomacy efforts and some sanctions.  Work toward a two-state solution. Do not necessarily freeze settlement building.
   (Rand Paul) Sanctions and diplomacy first
   (Ted Cruz) Increase and toughen sanctions. End current nuclear talks until Congress approves the outlines of a deal.
+  (George Pataki) End current negotiations with Iran. No peace talks with current Palestinian leaders until they recognize Israel.
 
 Islamic State and Iraq:
   (Boby Jindal) Keep open the option of sending U.S. ground troops.
@@ -385,6 +395,7 @@ Islamic State and Iraq:
   (Hillary Clinton) No boots on the ground. Use regional troops.
   (Rand Paul) Arm the Kurds, declare war. Limited troops.
   (Ted Cruz) Don’t send U.S. ground troops, yet.
+  (George Pataki) Consider sending U.S. combat troops.
 
 Russia:
   (Jeb Bush) Consider putting U.S. troops in the region. Hold more robust military exercises.
