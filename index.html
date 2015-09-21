@@ -26,12 +26,12 @@
         <h1 class="m-0 pull-left">
           Some Title Here <small>some tagline here</small>
         </h1>
-        <ul class="list-inline pull-right mt-15 mb-0">
-          <li>
-            <a data-ui-sref="questionnaire" class="btn btn-warning" data-ui-sref-active="active">Questionnaire</a>
+        <ul class="nav nav-pills pull-right mt-15 mb-0">
+          <li data-ui-sref-active="active">
+            <a data-ui-sref="questionnaire">Questionnaire</a>
           </li>
-          <li>
-            <a data-ui-sref="search" class="btn btn-warning" data-ui-sref-active="active">Search</a>
+          <li data-ui-sref-active="active">
+            <a data-ui-sref="search">Search</a>
           </li>
         </ul>
       </div><!-- .container-fluid -->
@@ -56,6 +56,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-filter/0.5.5/angular-filter.min.js"></script>
     <!-- APP -->
     <script src="app/app.module.js"></script>
+    <!-- SERVICES -->
+    <script src="app/data/candidates.js"></script>
     <!-- CONTROLLERS -->
     <script src="app/components/questionnaire/controller.js"></script>
     <script src="app/components/search/controller.js"></script>
