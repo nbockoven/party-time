@@ -124,7 +124,51 @@ party.factory('issues', function(){
 
 /*
 
-ISSUES
+SIMILAR SITE:
+  http://presidential-candidates.insidegov.com/
+
+Filters
+
+Status
+  Running
+  Potential
+  Declined
+  Withdrawn
+
+TOP ISSUES
+  Abortion
+    Abortion Rights
+  Women & Minorities
+    Women and Minorities Rights
+  Same-Sex Marriage
+    Same-sex Marriage
+
+  Faith in Schools
+  Less environmental Regulation
+  Campaign Finance Reform
+  Stricter Criminal Sentencing
+  Gun Rights
+  Affordable Care Act
+  School Vouchers
+  Green Energy
+  Stricter Drug Laws
+  Stimulus Policies
+  Higher Taxes
+  Immigration Reform
+  Privatizing Social Security
+  Free Trade
+  Robust Military
+  America
+    American Exceptionalism
+  Foreign Policy
+    Peace and Diplomacy
+
+
+
+
+BREAK DOWN
+
+
 
 Budget:
   (Boby Jindal) Pass Constitutional Amendment to balance the federal budget. Increase defense spending. Consider private accounts for Social Security.
@@ -167,11 +211,11 @@ Climate Change:
   (Donald Trump) It is a hoax.
   (Jeb Bush) Climate change is a real concern. It is not clear how much is caused by humans.
   (Lindsey Graham) Climate change is real, man-made, and an economic and environmental problem.
-  (Martin O'Malley) It is real and a “natural threat.” Government should regulate greenhouse gas emissions.
+  (Martin O'Malley) It is real and a "natural threat." Government should regulate greenhouse gas emissions.
   (Rick Santorum) Not caused by human activity. Allow more oil and gas drilling.
   (Mike Huckabee) Scientific predictions are inaccurate. But no hard, definitive stance.
   (Carly Fiorina) It is real and manmade. But government has limited ability to address it.
-  (Ben Carson) The climate change debate is “irrelevant.” Temperature change is cyclical.
+  (Ben Carson) The climate change debate is "irrelevant." Temperature change is cyclical.
   (Bernie Sanders) Charge companies for carbon emissions
   (Marco Rubio) It is real. It is not caused by man.
   (George Pataki) Climate change is real. Combat it through private initiatives.
@@ -235,7 +279,7 @@ Immigration:
   (Donald Trump) No path to citizenship for undocumented workers. Allow more European immigration and a legal status to those graduating from U.S. colleges.
   (Jeb Bush) Create a legal status, not a path to citizenship, for undocumented residents. Limit family-related legal immigration.
   (Lincoln Chafee) Give undocumented immigrants access to in-state tuition. Offer a path to citizenship. Federal, not state, officials should enforce immigration laws.
-  (Lindsey Graham) Secure the border, then allow a path to citizenship for some undocumented immigrants. Block the president’s executive actions.
+  (Lindsey Graham) Secure the border, then allow a path to citizenship for some undocumented immigrants. Block the president's executive actions.
   (Martin O'Malley) Create a path to citizenship for immigrants in the country illegally. Pass the DREAM Act. Allow undocumented students to pay in-state tuition rates.
   (Rick Santorum) Block the DREAM Act and any pathway to citizenship for undocumented workers. Restrict legal immigration. Increase border security.
   (Mike Huckabee) Require most immigrants here illegally to self-deport within four months. Waive deportation for those brought here as children.
@@ -252,12 +296,12 @@ Internet:
   (Marco Rubio) Oppose net neutrality.
   (Ted Cruz) Do not tax access to the Internet and block "net neutrality."
 
-Affordable Healthcare Act:
+Affordable Care Act:
   (Boby Jindal) Repeal and replace it with a new system.
   (Jim Webb) President Obama mishandled the process. The law could have been narrower.
   (Chris Christie) Repeal and replace it. New Jersey accepted Medicaid expansion portion of the law.
   (Donald Trump) Repeal it. Replace it.
-  (Jeb Bush) Replace with “market-oriented” alternative.
+  (Jeb Bush) Replace with "market-oriented" alternative.
   (Lincoln Chafee) Keep the Affordable Care Act. Move toward universal coverage.
   (Lindsey Graham) Repeal it or defund it.
   (Martin O'Malley) Expand the Affordable Care Act. Move to an "all-payer" system.
@@ -308,7 +352,7 @@ Gay Marriage:
   (Lindsey Graham) The Supreme Court decision on gay marriage stands. Republicans should not push for a Constitutional amendment.
   (Martin O'Malley) Legalize same-sex marriage.
   (Rick Santorum) Pass a Constitutional amendment to reverse the Supreme Court decision on gay marriage.
-  (Mike Huckabee) Push for a Constitutional amendment to reverse the Supreme Court’s gay marriage decision.
+  (Mike Huckabee) Push for a Constitutional amendment to reverse the Supreme Court's gay marriage decision.
   (Carly Fiorina) The Supreme Court was wrong on gay marriage. No position yet on whether it is settled law.
   (Ben Carson) The Supreme Court ruling on gay marriage is the law of the land.
   (Marco Rubio) The Supreme Court decision on gay marriage is the law of the land. Marriage is between a man and a woman.
@@ -318,7 +362,7 @@ Gay Marriage:
   (George Pataki) Leave the definition of marriage to states.
 
 Taxes:
-  (Boby Jindal) Eliminate state income taxes. Look to local governments to plug Louisiana’s budget hole.
+  (Boby Jindal) Eliminate state income taxes. Look to local governments to plug Louisiana's budget hole.
   (Scott Walker) Cut tax rates. Consider abolishing income tax.
   (Jim Webb) Cut corporate taxes. Raise taxes on investments.
   (Chris Christie) Reform the tax code. (three income tax rates with highest at 28%. corporate tax code from 35% to 25%)
@@ -344,7 +388,7 @@ Trade:
   (Martin O'Malley) Block the Trans-Pacific Partnership.
 
 Unions and Workers:
-  (Scott Walker) Limit union organizing. Establish “right to work” laws.
+  (Scott Walker) Limit union organizing. Establish "right to work" laws.
 
 Welfare and Entitlements:
   (Scott Walker) Reduce government assistance. Require drug tests and job training in exchange for benefits.
@@ -353,7 +397,7 @@ Foreign Aid:
   (Rand Paul) End it.
 
 Cuba:
-  (Marco Rubio) Block the Obama administration’s "normalization"
+  (Marco Rubio) Block the Obama administration's "normalization"
 
 Iran and Israel:
   (Boby Jindal) Current nuclear talks are a mistake. Increase support for Israel.
@@ -362,13 +406,13 @@ Iran and Israel:
   (Chris Christie) End current negotiations with Iran. Strengthen ties with Israel.
   (Donald Trump) Walk away from nuclear talks. Increase sanctions.
   (Jeb Bush) Cancel any nuclear deal President Obama reaches with Iran. Strengthen ties with Israel.
-  (Lincoln Chafee) The U.S. should negotiate with Iran. President George W. Bush was right to support a two-state solution and “Road Map” for peace between Israel and Palestinians.
-  (Lindsey Graham) Block the current nuclear framework with Iran. Defend Israel’s actions in the West Bank.
+  (Lincoln Chafee) The U.S. should negotiate with Iran. President George W. Bush was right to support a two-state solution and "Road Map" for peace between Israel and Palestinians.
+  (Lindsey Graham) Block the current nuclear framework with Iran. Defend Israel's actions in the West Bank.
   (Martin O'Malley) Continue negotiations with Iran. Work for a two-state solution between Israel and Palestinians.
   (Rick Santorum) Ramp up sanctions on Iran. Strengthen alliance with Israel.
   (Mike Huckabee) Contested territory belongs to Israel. No to a two-state solution with Palestinians.
   (Carly Fiorina) Support Israel by breaking off nuclear talks. Verify actions before Iran sanctions are lifted.
-  (Ben Carson) Congress must be involved in Iran deal. U.S. should listen to and consider Netanyahu’s words.
+  (Ben Carson) Congress must be involved in Iran deal. U.S. should listen to and consider Netanyahu's words.
   (Bernie Sanders) Supports current talks with Iran. Critical of Israeli Prime Minister Benjamin Netanyahu.
   (Marco Rubio) Toughen sanctions. Scrap proposed nuclear deal.
   (Hillary Clinton) Support framework for nuclear deal. Continue diplomacy efforts and some sanctions.  Work toward a two-state solution. Do not necessarily freeze settlement building.
@@ -389,12 +433,12 @@ Islamic State and Iraq:
   (Rick Santorum) More air strikes. Deploy 10,000 U.S. ground troops.
   (Mike Huckabee) Nations in the Middle East region must do more to fight Islamic State, but the U.S. may have to put boots on the ground.
   (Carly Fiorina) Arm the Kurds.
-  (Ben Carson) The U.S. should step up its efforts to destroy the Islamic State militant group. Do not “tie” the military’s hands.
+  (Ben Carson) The U.S. should step up its efforts to destroy the Islamic State militant group. Do not "tie" the military's hands.
   (Bernie Sanders) Opposed the Iraq war. Calls for troop withdrawal as soon as possible (Afghanistan).
-  (Marco Rubio) Increase the president’s power to combat.
+  (Marco Rubio) Increase the president's power to combat.
   (Hillary Clinton) No boots on the ground. Use regional troops.
   (Rand Paul) Arm the Kurds, declare war. Limited troops.
-  (Ted Cruz) Don’t send U.S. ground troops, yet.
+  (Ted Cruz) Don't send U.S. ground troops, yet.
   (George Pataki) Consider sending U.S. combat troops.
 
 Russia:
