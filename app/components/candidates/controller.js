@@ -1,6 +1,6 @@
-party.controller('search', ['$scope', 'candidates', function( $scope, candidates ){
+party.controller('candidates', ['$scope', 'allCandidates', function( $scope, allCandidates ){
 
-  $scope.candidates = candidates;
+  $scope.candidates = allCandidates;
 
   $scope.useParties = {};
   $scope.useGenders = {};

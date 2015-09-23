@@ -16,40 +16,38 @@ party.config(function( $stateProvider, $urlRouterProvider ){
 
   .state('home', {
     url: "/",
+    controller: "home",
+    templateUrl: "app/components/home/view.html",
     data: {
       pagetitle: 'Welcome'
-    },
-    views: {
-      "home": {
-        controller: "home",
-        templateUrl: "app/components/home/view.html"
-      }
     }
   })
 
   .state('questionnaire', {
     url: "/questionnaire",
+    controller: "questionnaire",
+    templateUrl: "app/components/questionnaire/view.html",
     data: {
-      pagetitle: 'Welcome'
-    },
-    views: {
-      "questionnaire": {
-        controller: "questionnaire",
-        templateUrl: "app/components/questionnaire/view.html"
-      }
+      pagetitle: 'Questions'
     }
   })
 
-  .state('search', {
-    url: "/search",
+  .state('candidates', {
+    url: "/candidates",
+    controller: "candidates",
+    templateUrl: "app/components/candidates/view.listing.html",
     data: {
-      pagetitle: 'Search'
+      pagetitle: 'Candidates'
+    }
+  })
+  .state('candidates.detail', {
+    url: "/candidates/{candidateID:int}",
+    controller: function( $scope, $stateParams ){
+      $scope.candidateID = $stateParams.candidateID;
     },
-    views: {
-      "search": {
-        controller: "search",
-        templateUrl: "app/components/search/view.html"
-      }
+    templateUrl: "app/components/candidates/view.detail.html",
+    data: {
+      pagetitle: 'Candidate'
     }
   })
 

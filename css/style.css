@@ -6,6 +6,20 @@ body {
   border-bottom: 4px solid #E6E6E6;
 }
 
+.thumbnail {
+  border: none;
+  border-radius: 2px;
+  -webkit-box-shadow: 0 1px 4px rgba(0,0,0,0.3);
+  -moz-box-shadow: 0 1px 4px rgba(0,0,0,0.3);
+  -o-box-shadow: 0 1px 4px rgba(0,0,0,0.3);
+  box-shadow: 0 1px 4px rgba(0,0,0,0.3)
+}
+
+input[type=checkbox]:checked:after {
+  background-color: #4caf50 !important;
+  border-color: #4caf50 !important;
+}
+
 
 input[type=radio]:checked:before {
   background-color: #4caf50 !important;

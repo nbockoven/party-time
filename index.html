@@ -31,18 +31,13 @@
             <a data-ui-sref="questionnaire">Questionnaire</a>
           </li>
           <li data-ui-sref-active="active">
-            <a data-ui-sref="search">Search</a>
+            <a data-ui-sref="candidates">Candidates</a>
           </li>
         </ul>
       </div><!-- .container-fluid -->
     </div><!-- .jumbotron -->
 
-    <div data-ui-view="home"></div>
-
-    <div data-ui-view="questionnaire"></div>
-
-    <div class="container-fluid" data-ui-view="search"></div><!-- .container-fluid -->
-
+    <div data-ui-view></div><!-- .container-fluid -->
 
     <!-- JS -->
     <!-- JQUERY -->
@@ -59,8 +54,8 @@
     <!-- SERVICES -->
     <script src="app/data/candidates.js"></script>
     <!-- CONTROLLERS -->
+    <script src="app/components/candidates/controller.js"></script>
     <script src="app/components/questionnaire/controller.js"></script>
-    <script src="app/components/search/controller.js"></script>
     <!-- ROUTER -->
     <script src="app/app.routes.js"></script>
     <!-- CUSTOM -->

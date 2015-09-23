@@ -1,4 +1,4 @@
-party.factory('candidates', function(){
+party.factory('allCandidates', function(){
   return [
     // REPUBLICAN
     {
