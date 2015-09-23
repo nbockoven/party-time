@@ -7,7 +7,8 @@ party.factory('allCandidates', function(){
       party: 'Republican',
       experience: 'Former Governor of Florida',
       image: 'https://s2.graphiq.com/sites/default/files/980/media/images/t2/Jeb_Bush_1786288.jpg',
-      gender: 'Male'
+      gender: 'Male',
+      years_running: [2016]
     },
     {
       first_name: 'Ben',
@@ -15,7 +16,8 @@ party.factory('allCandidates', function(){
       party: 'Republican',
       experience: 'Former Neurosurgeon',
       image: 'https://s.graphiq.com/sites/default/files/980/media/images/t2/Ben_Carson_6036997.jpg',
-      gender: 'Male'
+      gender: 'Male',
+      years_running: [2016]
     },
     {
       first_name: 'Donald',
@@ -23,7 +25,8 @@ party.factory('allCandidates', function(){
       party: 'Republican',
       experience: 'President, Trump Organization',
       image: 'https://s2.graphiq.com/sites/default/files/980/media/images/t2/Donald_Trump_6522122.jpg',
-      gender: 'Male'
+      gender: 'Male',
+      years_running: [2016]
     },
     {
       first_name: 'Ted',
@@ -31,7 +34,8 @@ party.factory('allCandidates', function(){
       party: 'Republican',
       experience: 'U.S. Senator of Texas',
       image: 'https://s3.graphiq.com/sites/default/files/980/media/images/t2/Ted_Cruz_1786303.jpg',
-      gender: 'Male'
+      gender: 'Male',
+      years_running: [2016]
     },
     {
       first_name: 'Marco',
@@ -39,7 +43,8 @@ party.factory('allCandidates', function(){
       party: 'Republican',
       experience: 'U.S. Senator of Florida',
       image: 'https://s.graphiq.com/sites/default/files/980/media/images/t2/Marco_Rubio_1786292.jpg',
-      gender: 'Male'
+      gender: 'Male',
+      years_running: [2016]
     },
     {
       first_name: 'Mike',
@@ -47,7 +52,8 @@ party.factory('allCandidates', function(){
       party: 'Republican',
       experience: 'Former Governor of Arkansas',
       image: 'https://s2.graphiq.com/sites/default/files/980/media/images/t2/Mike_Huckabee_1786294.jpg',
-      gender: 'Male'
+      gender: 'Male',
+      years_running: [2016]
     },
     {
       first_name: 'Rand',
@@ -55,7 +61,8 @@ party.factory('allCandidates', function(){
       party: 'Republican',
       experience: 'U.S. Senator of Kentucky',
       image: 'https://s3.graphiq.com/sites/default/files/980/media/images/t2/Rand_Paul_5645560.jpg',
-      gender: 'Male'
+      gender: 'Male',
+      years_running: [2016]
     },
     {
       first_name: 'Carly',
@@ -63,7 +70,8 @@ party.factory('allCandidates', function(){
       party: 'Republican',
       experience: 'Former CEO of HP',
       image: 'https://s.graphiq.com/sites/default/files/980/media/images/t2/Carly_Fiorina_6036992.jpg',
-      gender: 'Female'
+      gender: 'Female',
+      years_running: [2016]
     },
     {
       first_name: 'Scott',
@@ -72,6 +80,7 @@ party.factory('allCandidates', function(){
       experience: 'Governor of Wisconsin',
       image: 'https://s2.graphiq.com/sites/default/files/980/media/images/t2/Scott_Walker_1786302.jpg',
       gender: 'Male',
+      years_running: [2016],
       issues: [
         {
           title: 'Climate Change',
@@ -96,7 +105,8 @@ party.factory('allCandidates', function(){
       party: 'Republican',
       experience: 'Governor of Ohio',
       image: 'https://s3.graphiq.com/sites/default/files/980/media/images/t2/John_Kasich_1786289.jpg',
-      gender: 'Male'
+      gender: 'Male',
+      years_running: [2016]
     },
     {
       first_name: 'Chris',
@@ -104,7 +114,8 @@ party.factory('allCandidates', function(){
       party: 'Republican',
       experience: 'Governor of New Jersey',
       image: 'https://s2.graphiq.com/sites/default/files/980/media/images/t2/Chris_Christie_1786282.jpg',
-      gender: 'Male'
+      gender: 'Male',
+      years_running: [2016]
     },
     {
       first_name: 'Rick',
@@ -112,7 +123,8 @@ party.factory('allCandidates', function(){
       party: 'Republican',
       experience: 'Former U.S. Senator of Pennsylvania',
       image: 'https://s.graphiq.com/sites/default/files/980/media/images/t2/Rick_Santorum_1786299.jpg',
-      gender: 'Male'
+      gender: 'Male',
+      years_running: [2016]
     },
     {
       first_name: 'Bobby',
@@ -120,7 +132,8 @@ party.factory('allCandidates', function(){
       party: 'Republican',
       experience: 'Governor of Louisiana',
       image: 'https://s2.graphiq.com/sites/default/files/980/media/images/t2/Bobby_Jindal_1786297.jpg',
-      gender: 'Male'
+      gender: 'Male',
+      years_running: [2016]
     },
     {
       first_name: 'Lindsey',
@@ -128,7 +141,8 @@ party.factory('allCandidates', function(){
       party: 'Republican',
       experience: 'U.S. Senator of South Carolina',
       image: 'https://s.graphiq.com/sites/default/files/980/media/images/t2/Lindsey_Graham_6387899.jpg',
-      gender: 'Male'
+      gender: 'Male',
+      years_running: [2016]
     },
     {
       first_name: 'George',
@@ -136,7 +150,8 @@ party.factory('allCandidates', function(){
       party: 'Republican',
       experience: 'Former Governor of New York',
       image: 'https://s2.graphiq.com/sites/default/files/980/media/images/t2/George_Pataki_6502634.jpg',
-      gender: 'Male'
+      gender: 'Male',
+      years_running: [2016]
     },
     {
       first_name: 'Jim',
@@ -144,7 +159,8 @@ party.factory('allCandidates', function(){
       party: 'Republican',
       experience: 'Former Governor of Virginia',
       image: 'https://s3.graphiq.com/sites/default/files/980/media/images/t2/Jim_Gilmore_6638843.jpg',
-      gender: 'Male'
+      gender: 'Male',
+      years_running: [2016]
     },
 
     // DEMOCRATIC
@@ -154,7 +170,8 @@ party.factory('allCandidates', function(){
       party: 'Democratic',
       experience: 'Former Secretary of State',
       image: 'https://s.graphiq.com/sites/default/files/980/media/images/t2/Hillary_Clinton_1786283.jpg',
-      gender: 'Female'
+      gender: 'Female',
+      years_running: [2016]
     },
     {
       first_name: 'Bernie',
@@ -162,7 +179,8 @@ party.factory('allCandidates', function(){
       party: 'Democratic',
       experience: 'U.S. Senator of Vermont',
       image: 'https://s3.graphiq.com/sites/default/files/980/media/images/t2/Bernie_Sanders_1786280.jpg',
-      gender: 'Male'
+      gender: 'Male',
+      years_running: [2016]
     },
     {
       first_name: 'Martin',
@@ -170,7 +188,8 @@ party.factory('allCandidates', function(){
       party: 'Democratic',
       experience: 'Former Governor of Maryland',
       image: 'https://s.graphiq.com/sites/default/files/980/media/images/t2/Martin_OMalley_1786293.jpg',
-      gender: 'Male'
+      gender: 'Male',
+      years_running: [2016]
     },
     {
       first_name: 'Jim',
@@ -178,7 +197,8 @@ party.factory('allCandidates', function(){
       party: 'Democratic',
       experience: 'Former U.S. Senator of Virginia',
       image: 'https://s3.graphiq.com/sites/default/files/980/media/images/t2/Jim_Webb_6387898.jpg',
-      gender: 'Male'
+      gender: 'Male',
+      years_running: [2016]
     },
     {
       first_name: 'Lincoln',
@@ -186,7 +206,8 @@ party.factory('allCandidates', function(){
       party: 'Democratic',
       experience: 'Former Governor of Rhode Island',
       image: 'https://s3.graphiq.com/sites/default/files/980/media/images/t2/Lincoln_Chafee_6387900.jpg',
-      gender: 'Male'
+      gender: 'Male',
+      years_running: [2016]
     }
   ]
 });

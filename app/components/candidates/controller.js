@@ -2,8 +2,8 @@ party.controller('candidates', ['$scope', 'allCandidates', function( $scope, all
 
   $scope.candidates = allCandidates;
 
-  $scope.useParties = {};
-  $scope.useGenders = {};
+  $scope.useParties      = {};
+  $scope.useGenders      = {};
 
   $scope.$watch(function(){
     return {
@@ -93,14 +93,12 @@ party.filter('groupBy', function(){
 
 
 var uniqueItems = function( data, key ){
-    var result = new Array();
-    for (var i = 0; i < data.length; i++) {
-        var value = data[i][key];
+  var result = new Array();
+  for (var i = 0; i < data.length; i++) {
+    var value = data[i][key];
 
-        if (result.indexOf(value) == -1) {
-            result.push(value);
-        }
-
-    }
-    return result;
+    if (result.indexOf(value) == -1)
+      result.push(value);
+  }
+  return result;
 };
