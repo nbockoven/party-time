@@ -1,13 +1,21 @@
 <div class="container-fluid">
-  <div class="row">
+  <div class="row mb-20 visible-xs">
+    <!-- mobile filter button -->
+    <div class="col-xs-12">
+      <!-- <a href="#" class="btn btn-default btn-block"><i class="fa fa-filter"></i> Filters</a> -->
+      <button class="btn btn-default btn-block" data-toggle="offcanvas"><i class="fa fa-filter"></i> Filters</button>
+    </div><!-- .col-xs-12 -->
+  </div><!-- .row -->
+
+  <div class="row row-offcanvas row-offcanvas-left">
 
     <!-- FILTERS -->
-    <div class="col-sm-3 col-md-2">
+    <div class="col-xs-10 col-sm-3 col-md-2 sidebar-offcanvas" id="sidebar">
 
       <div class="panel">
         <div class="panel-body p-30">
           <h4 class="m-0">Party</h4>
-          <div class="checkbox" data-ng-repeat="party in partiesGroup | orderBy: party">
+          <div class="checkbox mt-5 mb-0" data-ng-repeat="party in partiesGroup | orderBy: party">
             <label>
               <input type="checkbox" data-ng-model="useParties[party]" > {{ party }}
             </label>
@@ -18,9 +26,30 @@
       <div class="panel">
         <div class="panel-body p-30">
           <h4 class="m-0">Gender</h4>
-          <div class="checkbox" data-ng-repeat="gender in gendersGroup | orderBy: gender">
+          <div class="checkbox mt-5 mb-0" data-ng-repeat="gender in gendersGroup | orderBy: gender">
             <label>
               <input type="checkbox" data-ng-model="useGenders[gender]" > {{ gender }}
+            </label>
+          </div><!-- .checkbox -->
+        </div><!-- .panel-body -->
+      </div><!-- .panel -->
+
+      <div class="panel">
+        <div class="panel-body p-30">
+          <h4 class="m-0">Abortion</h4>
+          <div class="checkbox mt-5 mb-0">
+            <label>
+              <input type="checkbox" name="[issue_id][]" value="1"> Supports
+            </label>
+          </div><!-- .checkbox -->
+          <div class="checkbox mt-5 mb-0">
+            <label>
+              <input type="checkbox" name="[issue_id][]" value="0"> Opposes
+            </label>
+          </div><!-- .checkbox -->
+          <div class="checkbox mt-5 mb-0">
+            <label>
+              <input type="checkbox" name="[issue_id][]" value="-1"> Neutral / No Opinion
             </label>
           </div><!-- .checkbox -->
         </div><!-- .panel-body -->
@@ -29,7 +58,7 @@
     </div><!-- .col-sm-3 -->
 
     <!-- CANDIDATES -->
-    <div class="col-sm-9 col-md-10">
+    <div class="col-sm-9 col-md-10 hidden-xs">
       <div class="row">
         <div class="col-sm-6 col-md-3" data-ng-repeat="candidate in filteredCandidates | orderBy: 'last_name'">
           <div data-ng-sref="candiates" class="thumbnail">
@@ -44,6 +73,20 @@
         </div><!-- .col-sm-6 -->
       </div><!-- .row -->
     </div><!-- .col-sm-9 -->
+
+    <div class="col-xs-12 visible-xs">
+      <div class="media mt-0 mb-15" data-ng-repeat="candidate in filteredCandidates | orderBy: 'last_name'">
+        <div class="media-left">
+          <img src="{{ candidate.image }}" alt="{{ candidate.first_name }} {{ candidate.last_name }}" style="width:14vh">
+        </div><!-- .media-left -->
+        <div class="media-body">
+          <h4 class="mt-5 mb-0">{{ candidate.first_name }} {{ candidate.last_name }}</h4>
+          {{ candidate.party }}
+          <br>
+          <small class="text-muted">{{ candidate.experience }}</small>
+        </div><!-- .media-body -->
+      </div><!-- .media -->
+    </div><!-- .col-xs-12 -->
 
   </div><!-- .row -->
 </div><!-- .container-fluid -->

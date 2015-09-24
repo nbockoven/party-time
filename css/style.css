@@ -6,13 +6,14 @@ body {
   border-bottom: 4px solid #e51c23;
 }
 
-.thumbnail {
+.thumbnail, .media {
   border: none;
   border-radius: 2px;
   -webkit-box-shadow: 0 1px 4px rgba(0,0,0,0.3);
   -moz-box-shadow: 0 1px 4px rgba(0,0,0,0.3);
   -o-box-shadow: 0 1px 4px rgba(0,0,0,0.3);
-  box-shadow: 0 1px 4px rgba(0,0,0,0.3)
+  box-shadow: 0 1px 4px rgba(0,0,0,0.3);
+  background-color: white;
 }
 
 input[type=checkbox]:checked:after {
@@ -40,4 +41,11 @@ input[type=radio]:checked:after {
 
 .vw-100 {
   width: 100vw !important;
+}
+
+
+.loading {
+  display: block;
+  font-size: 16vh;
+  text-align: center;
 }
